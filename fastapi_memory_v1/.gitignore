@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Archivos de entorno/secretos (llaves, contraseñas)
+.env
+
+# Archivos del sistema u ocultos
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs y archivos locales del proyecto
+.idea/
+docker
+test_main.http
+
